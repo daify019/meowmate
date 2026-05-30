@@ -1,0 +1,7 @@
+name: meowmate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pyside6>=6.6
