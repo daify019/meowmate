@@ -2,12 +2,12 @@
 
 MeowMate 是一个轻量桌面猫咪伙伴原型，使用 Python + PySide6 实现透明、置顶、可拖动的桌面宠物窗口。当前版本包含完整产品文档、交互设计与模块化代码骨架。猫咪外观已从程序化绘制切换为图片帧动画资源，后续可继续替换为更高精度的手绘精灵图、Spine 或 Lottie 动画资源。
 
-当前项目已迁移到 `D:\python projects\meowmate`。运行时配置保存在项目目录下的 `data/settings.json`，避免写入 C 盘用户目录。
+当前项目已统一到 `D:\codex\desk pet`。运行时配置保存在项目目录下的 `data/settings.json`，避免写入 C 盘用户目录。
 
 ## 快速开始
 
 ```powershell
-cd "D:\python projects\meowmate"
+cd "D:\codex\desk pet"
 conda env create -f environment.yml
 conda activate meowmate
 python -m src.meowmate.main
@@ -16,7 +16,7 @@ python -m src.meowmate.main
 如果环境已经存在：
 
 ```powershell
-cd "D:\python projects\meowmate"
+cd "D:\codex\desk pet"
 conda env update -f environment.yml --prune
 conda activate meowmate
 python -m src.meowmate.main
